@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1064547214757",
+    "firebase_url": "https://bus-tracker-59422.firebaseio.com",
+    "project_id": "bus-tracker-59422",
+    "storage_bucket": "bus-tracker-59422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064547214757:android:6e1e6fdbfcdac303",
+        "android_client_info": {
+          "package_name": "arab_open_university.com.bustracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064547214757-6lto026ruo0s4jbnpctfm6r237is8amc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx7OomshWd3WStMjFfKIieVStyiHyAGRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064547214757:android:ce6f395cf146c444",
+        "android_client_info": {
+          "package_name": "arab_open_university.com.bususer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064547214757-6lto026ruo0s4jbnpctfm6r237is8amc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx7OomshWd3WStMjFfKIieVStyiHyAGRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
