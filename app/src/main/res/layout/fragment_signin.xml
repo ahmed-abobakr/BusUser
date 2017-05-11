@@ -24,7 +24,6 @@
         android:layout_below="@id/login_title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:background="#FFFFFF"
         android:id="@+id/login_txtInput_email">
 
         <EditText
@@ -35,7 +34,7 @@
             android:inputType="textEmailAddress"
             android:nextFocusDown="@+id/login_password"
             android:textColorHint="#FFFFFF"
-            android:textColor="#000000"/>
+            android:textColor="#FFFFFF"/>
 
     </android.support.design.widget.TextInputLayout>
 
@@ -46,7 +45,6 @@
         android:layout_below="@id/login_txtInput_email"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:background="#FFFFFF"
         android:id="@+id/login_txtInput_password">
 
         <EditText
@@ -55,10 +53,9 @@
             android:id="@+id/login_password"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
-            android:background="#FFFFFF"
             android:hint="@string/password"
             android:textColorHint="#FFFFFF"
-            android:textColor="#000000"/>
+            android:textColor="#FFFFFF"/>
 
     </android.support.design.widget.TextInputLayout>
 

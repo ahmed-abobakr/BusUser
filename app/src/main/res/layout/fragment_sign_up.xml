@@ -26,15 +26,14 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:layout_weight="1">
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/signup_firstName"
                 android:hint="First Name"
                 android:textColorHint="#FFFFFF"
-                android:textColor="#000000"/>
+                android:textColor="#FFFFFF"/>
 
         </android.support.design.widget.TextInputLayout>
 
@@ -43,7 +42,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
             android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp">
 
@@ -53,7 +51,7 @@
             android:id="@+id/signup_lastName"
             android:hint="Last Name"
             android:textColorHint="#FFFFFF"
-            android:textColor="#000000"/>
+            android:textColor="#FFFFFF"/>
 
         </android.support.design.widget.TextInputLayout>
 
@@ -70,8 +68,7 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF">
+        android:layout_height="wrap_content">
 
     <EditText
         android:layout_width="match_parent"
@@ -81,7 +78,7 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:textColorHint="#FFFFFF"
-        android:textColor="#000000"/>
+        android:textColor="#FFFFFF"/>
 
     </android.support.design.widget.TextInputLayout>
 
@@ -96,8 +93,7 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF">
+        android:layout_height="wrap_content">
 
     <EditText
         android:layout_width="match_parent"
@@ -107,7 +103,7 @@
         android:hint="password"
         android:inputType="textPassword"
         android:textColorHint="#FFFFFF"
-        android:textColor="#000000"/>
+        android:textColor="#FFFFFF"/>
 
     </android.support.design.widget.TextInputLayout>
 
@@ -123,8 +119,7 @@
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF">
+        android:layout_height="wrap_content">
 
     <EditText
         android:layout_width="match_parent"
@@ -134,7 +129,7 @@
         android:hint="Confirm Password"
         android:inputType="textPassword"
         android:textColorHint="#FFFFFF"
-        android:textColor="#000000"/>
+        android:textColor="#FFFFFF"/>
 
     </android.support.design.widget.TextInputLayout>
 

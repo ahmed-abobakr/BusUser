@@ -52,8 +52,13 @@ public class SignUpFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
+         /*Intialize firebase authentication */
         mAuth = FirebaseAuth.getInstance();
+
+        /* check if user enters email and password, confirm password
+           * and the password is typical with confirm password if not typical show message that they are n't matched
+            * then creates account on firebase using email and password if succeeds show the map
+            * if fail show message that auth failed*/
 
         btnSinUp.setOnClickListener(new View.OnClickListener() {
             @Override

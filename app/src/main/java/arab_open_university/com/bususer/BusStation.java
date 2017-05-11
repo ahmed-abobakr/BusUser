@@ -1,12 +1,13 @@
 package arab_open_university.com.bususer;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by akhalaf on 5/1/2017.
  */
 
-public class BusStation {
+public class BusStation implements Serializable{
 
 
     private int NumOfBusStations;
@@ -14,6 +15,7 @@ public class BusStation {
     private List<Double> busStationsLat;
     private List<Double> busStationsLong;
     private List<String> busesIDs;
+    private String busNumber;
 
 
     public List<String> getBusStationsNames() {
@@ -56,5 +58,13 @@ public class BusStation {
 
     public void setBusesIDs(List<String> busesIDs) {
         this.busesIDs = busesIDs;
+    }
+
+    public String getBusNumber() {
+        return busNumber;
+    }
+
+    public void setBusNumber(String busNumber) {
+        this.busNumber = busNumber;
     }
 }

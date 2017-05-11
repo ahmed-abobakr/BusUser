@@ -52,16 +52,23 @@ public class SigninFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
+        /*Intialize firebase authentication */
         mAuth = FirebaseAuth.getInstance();
 
+        /* if user presses btn register open SignUp Fragment */
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 getActivity().getFragmentManager().beginTransaction().replace(R.id.signin_fragment, new SignUpFragment())
                         .commit();
+
             }
         });
+
+        /*  Check if email and password are not empty,
+            if empty show message that you should enter the email and password.
+            if not empty sign in with email if password if succeed start map activity,
+           * if fail got message is Authentication Failed*/
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
